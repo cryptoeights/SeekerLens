@@ -31,7 +31,22 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+
+# APK builds
+*.apk
+
+# design assets (pitch deck, .pen files, exports)
+design/
+
+# internal scripts
+scripts/
+
+# pitch & demo scripts (not source code)
+docs/pitch-deck.md
+docs/pitch-script.md
+docs/demo-script.md
 
 # typescript
 *.tsbuildinfo
